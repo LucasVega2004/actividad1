@@ -1,0 +1,70 @@
+/* Estilos generales */
+body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+}
+
+.container {
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: 20px;
+}
+
+/* Estilos del navbar */
+.navbar {
+     background-color: #3498db;
+     color: #fff;
+     padding: 10px 0;
+}
+
+.navbar .logo {
+     font-size: 24px;
+     font-weight: bold;
+     text-decoration: none;
+     color: #fff;
+}
+
+.nav-links {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+}
+
+.nav-links li {
+     display: inline;
+     margin-right: 20px;
+}
+
+.nav-links a {
+     text-decoration: none;
+     color: #fff;
+     font-size: 18px;
+}
+
+/* Estilos para el hover */
+.nav-links a:hover {
+     border-bottom: 2px solid #fff;
+}
+header{
+     background-color: #3498db;
+     text-align: center;
+     
+}
+section{
+    float: left;
+    width: 60%;
+    margin-top: 1em;
+}
+aside{
+     float: right;
+     width: 40%;
+     height: 100%;
+     position: static;
+     
+}
+article{
+float: left;
+width: 60%;
+
+}

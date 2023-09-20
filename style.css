@@ -3,7 +3,7 @@ body {
      font-family: Arial, sans-serif;
      margin: 0;
      padding: 0;
-     background-image: linear-gradient(to right, blue , aquamarine);
+     background-image: linear-gradient(to right, aquamarine, blue);
 
 }
 
@@ -15,17 +15,18 @@ body {
 
 /* Estilos del navbar */
 .navbar {
-     background-image: linear-gradient(to right, blue , aquamarine);
+     background-image: linear-gradient(to right, aquamarine, blue);
      color: #fff;
      padding: 10px 0;
      border-bottom: 1px solid yellow;
-}
+          }
 
 .navbar .logo {
      font-size: 24px;
      font-weight: bold;
      text-decoration: none;
      color: #fff;
+     
 }
 
 .nav-links {
@@ -51,10 +52,10 @@ body {
 }
 
 header {
-     
-     background-image: linear-gradient(to right, blue , aquamarine);
      text-align: center;
-
+     display: inline;
+     padding-left: 270px;
+     font-size: 50px;
 }
 
 section {
@@ -70,7 +71,7 @@ aside {
      width: 25%;
      height: 100%;
      position: static;
-   
+
 
 }
 
@@ -88,7 +89,18 @@ video {
      width: 35%;
 
 }
+
 #rectangulos {
      margin: 20px auto;
      display: block;
-   }
+}
+footer{
+     height: 25px;
+     background-color: burlywood;
+}
+
+img{
+     padding-top: 15px;
+     height: 50px;
+     width: 100px;
+}
